@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+h3 {
+  color: MediumAquamarine;
+}
+nav {
+  width: 100%;
+  /*border: 1px solid black;*/
+  text-align: right;
+  padding: 15px 10px 0 0;
+}
+span{
+  display: inline-block;
+  padding: 10px;
+}
+a {
+  color: black;
+}

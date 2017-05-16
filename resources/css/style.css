@@ -9,6 +9,9 @@ header {
   position: fixed;
   background-color: white;
 }
+header img {
+  margin-left: 20px;
+}
 header h3 {
   color: MediumAquamarine;
 }

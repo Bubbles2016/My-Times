@@ -168,14 +168,18 @@ footer {
   background-color: MediumAquamarine;
   height: 325px;
   margin-top: 80px;
+  flex-direction: column;
 }
-footer h3 {
+.info h3 {
   color: white;
 }
-footer nav {
+.info nav {
   margin-left: 30px;
 }
 .bar {
   margin-left: 30px;
   color: white;
+}
+.copyright {
+  display: block;
 }

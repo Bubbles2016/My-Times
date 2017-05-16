@@ -7,6 +7,7 @@ header {
   border-bottom: 1px solid black;
   width: 100%;
   position: fixed;
+  background-color: white;
 }
 header h3 {
   color: MediumAquamarine;
@@ -24,8 +25,12 @@ span{
 a {
   color: black;
 }
+body {
+  margin: 0;
+}
 .main {
   display: inline-flex;
+  padding-top: 100px;
 }
 .column.large {
   width: 630px;

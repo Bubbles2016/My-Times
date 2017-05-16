@@ -45,6 +45,71 @@ a {
   padding-left: 40px;
 }
 
-.mother.story {
+/*.mother.story {
   border: 1px solid black;
+}*/
+.main.image {
+  display: flex;
+  background: url("../../resources/images/main.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+.fall.season.image {
+  display: flex;
+  background: url("../../resources/images/fall.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+.camera.image {
+  display: flex;
+  background: url("../../resources/images/cameraman.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+.cat.image {
+  display: flex;
+  background: url("../../resources/images/cat.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+.mother.story p, .earth.story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main.image h3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.fall.season.image h3, .cat.image h3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.camera.image h3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }

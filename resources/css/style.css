@@ -25,9 +25,12 @@ a {
 }
 .main {
   display: inline-flex;
+
 }
 .column.large {
   width: 630px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -48,6 +51,27 @@ a {
 /*.mother.story {
   border: 1px solid black;
 }*/
+.orca.story, .burger.story {
+  width: 300px;
+  display: inline-flex;
+}
+
+.burger.story {
+  margin-left: 10px;
+}
+.mew {
+  margin-left: 10px;
+}
+.puget, .mew {
+  width: 300px;
+  display: inline-flex;
+}
+.puget p, .mew p {
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .main.image {
   display: flex;
   background: url("../../resources/images/main.png") no-repeat center center;
@@ -57,7 +81,7 @@ a {
   background-size: cover;
   height: 300px;
 }
-.fall.season.image {
+.fall.image {
   display: flex;
   background: url("../../resources/images/fall.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -65,8 +89,17 @@ a {
   -o-background-size: cover;
   background-size: cover;
   height: 300px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-
+.fall.image p, .camera.image p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 .camera.image {
   display: flex;
   background: url("../../resources/images/cameraman.png") no-repeat center center;
@@ -75,6 +108,14 @@ a {
   -o-background-size: cover;
   background-size: cover;
   height: 300px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+.fall.image, .camera.image {
+  display: inline-flex;
 }
 .cat.image {
   display: flex;
@@ -84,6 +125,14 @@ a {
   -o-background-size: cover;
   background-size: cover;
   height: 300px;
+  /*flex-direction: column;*/
+}
+.cat.image h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 2px 0 0 5px;
 }
 .mother.story p, .earth.story p {
   font-family: Georgia;
@@ -99,23 +148,8 @@ a {
   margin-top: 10px;
 }
 
-.fall.season.image h3, .cat.image h3 {
-  display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-.camera.image h3 {
-  display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-.container {
+/*.container {
   width: 300px;
   height: 300px;
   display: inline-flex;
-}
+}*/

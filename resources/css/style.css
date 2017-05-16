@@ -96,6 +96,7 @@ a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin-top: 10px;
 }
 
 .fall.season.image h3, .cat.image h3 {
@@ -112,4 +113,9 @@ a {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  display: inline-flex;
 }

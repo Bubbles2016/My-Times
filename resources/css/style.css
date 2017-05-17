@@ -74,7 +74,7 @@ body {
   color: white;
   margin: 20px 0 0 20px;
 }
-.mother.story p, .earth.story p {
+.image-content {
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -94,11 +94,6 @@ body {
 .text1, .text2 {
   width: 300px;
   display: inline-flex;
-}
-.text1 p, .text2 p {
-  font-family: georgia;
-  font-size: 17px;
-  color: black;
 }
 
 .fall.image {
@@ -135,11 +130,6 @@ body {
   margin-left: 10px;
 }
 
-.fbi.story p, .brooklyn.story p {
-  font-family: georgia;
-  font-size: 17px;
-  color: black;
-}
 .fbi.story h2 {
   font-family: Georgia;
   font-weight: bold;
